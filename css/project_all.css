@@ -1,0 +1,36 @@
+.project_item .project_page_item_title {
+    position: relative;
+    padding: 0 20px;
+    margin: 0;
+
+    border-left: 2px solid var(--border-color);
+    border-radius: 0 4px 4px 0;
+
+    background-color: var(--light-bg-color);
+    font-weight: normal;
+}
+
+.project_item .project_page_item_title a {
+    background-image: none;
+}
+
+.project_item .project_page_item_title a .project_page_item_link_icon {
+    display: inline-block;
+    font-size: 10pt;
+    color: var(--button-color);
+}
+
+.project_item .project_page_item_title a:hover .project_page_item_link_icon {
+    color: var(--accent-color);
+}
+
+.project_item .project_content {
+    border-left: 2px solid var(--border-color);
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.project_item:last-of-type .project_content {
+    padding-bottom: 0;
+}
