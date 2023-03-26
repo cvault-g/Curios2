@@ -1,0 +1,143 @@
+.project_item {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 9px;
+    border: 3px solid var(--border-color);
+    border-radius: 3px;
+}
+
+.project_left_pane {
+    display: block;
+    width: 66px;
+    height: 100%;
+    float: left;
+}
+
+.project_glyph {
+    width: 66px;
+}
+
+.project_link {
+    background: none;
+    font-size: smaller;
+}
+
+.project_link:hover {
+    background: none;
+}
+
+@import url(/css/temas.css);
+
+.project_right_pane {
+    display: block;
+    width: calc(100% - 76px);
+    height: 100%;
+    float: right;
+}
+
+.project_title {
+    display: block;
+    width: 100%;
+    margin-top: -2px;
+    margin-bottom: 0px;
+    font-size: 13pt;
+}
+
+
+.project_description {
+    display: block;
+    padding-top: 2px;
+    height: 20px;
+    color: var(--caption-color);
+    font-size: 10pt;
+}
+
+.project_buttons {
+    display: block;
+    height: calc(100% - 55px);
+    padding: 5px 0;
+}
+
+.project_button {
+    width: 46%;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 0 var(--shadow-color);
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.project_button:hover {
+    background-color: var(--btn-hover-color);
+    color: white;
+}
+
+.project_details_button {
+    float: left;
+    background-color: var(--button-color);
+}
+
+.project_source_button {
+    float: right;
+    background-color: var(--btn-project-color);
+}
+
+#view_more_projects {
+    border-style: dashed;
+}
+
+#view_more_projects a {
+    display: block;
+    width: 100%;
+    line-height: 84px;
+    background: none;
+    text-align: center;
+    font-size: 13pt;
+}
+
+#view_more_projects a:hover {
+    background-color: var(--highlight-color);
+}
+
+#project_summary_list {
+    padding: 0;
+    font-size: 0;
+}
+
+#project_summary_list li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 12pt;
+    width: 90%;
+    height: 80px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 700px) {
+    #project_summary_list li {
+        width: 80% !important;
+        display: block;
+        margin: 0 auto 20px;
+    }
+
+    .project_item {
+        width: 100% !important;
+    }
+
+    .project_glyph {
+        -ms-interpolation-mode: nearest-neighbor;
+        image-rendering: crisp-edges;
+        image-rendering: pixelated;
+    }
+}
+
+*{
+    box-sizing: border-box;
+  }
