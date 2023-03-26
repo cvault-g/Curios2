@@ -262,3 +262,13 @@ h2{
   font-size: 16pt;
   margin-top: 50px;
 }
+
+.image-album {
+  display: flex; /* hace que los gifs estén en una línea horizontal */
+  justify-content: center; /* centra los gifs horizontalmente */
+}
+
+.image-album img {
+  max-width: 150px; /* establece el ancho máximo de los gifs */
+  margin: 0 10px; /* establece un margen de 10px a la izquierda y a la derecha de cada gif */
+}
