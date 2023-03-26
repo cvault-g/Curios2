@@ -1,3 +1,6 @@
+@import url(/css/temas.css);
+
+
 .project_item .project_page_item_title {
     position: relative;
     padding: 0 20px;
@@ -6,7 +9,7 @@
     border-left: 2px solid var(--border-color);
     border-radius: 0 4px 4px 0;
 
-    background-color: var(--light-bg-color);
+    background-color: var(--bg-color);
     font-weight: normal;
 }
 
