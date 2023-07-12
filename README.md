@@ -9,5 +9,4 @@
 
 ## Contacto
 
-Si tienes alguna pregunta o te gustaría trabajar conmigo en algún proyecto, no dudes en contactarme a través de mi correo electrónico: [curiosvoult.help@gmail.com](mailto:sobrety.es@gmail.com). También puedes seguirme en [Twitter](https://twitter.com/[CuriosVoult]) estare subiendo informacion mis proyectos
-¡Gracias por visitar mi página web personal!
+Si tienes alguna pregunta o te gustaría trabajar conmigo en algún proyecto, no dudes en contactarme a través de mi correo electrónico: [curiosvoult.help@gmail.com](mailto:curiosvoult.help@gmail.com). También puedes seguirme en [Twitter](https://twitter.com/CuriosVoult) estare subiendo informacion mis proyectos
